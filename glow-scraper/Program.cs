@@ -21,27 +21,10 @@ namespace MusicScraper
             GetArtistDetails(url);
         }
 
-        static ArtistDetails GetArtistDetails(string url)
-        {
-            var htmlNode = GetHtml(url);
-            var artistDetails = new ArtistDetails();
-
-            var NameNode = htmlNode.CssSelect(".artist_name_hdr").First();
-            artistDetails.Name = NameNode.InnerText;
-
-            return artistDetails;
-        }
-
         static HtmlNode GetHtml(string url)
         {
             var webpage = _scrapingBrowser.NavigateToPage(new Uri(url));
             return webpage.Html;
         }
-    }
-
-    public class ArtistDetails
-    {
-        public string Name { get; set; }
-        public string Formed { get; set; }
     }
 }

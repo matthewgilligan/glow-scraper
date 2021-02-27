@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{7FC2DEA9-928A-4CEE-B14E-D0E81B3E438E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="glow-scraper/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="glow-scraper/Services/ArtistService.cs">
     <Files>
-      <File FileName="glow-scraper/Program.cs" Line="48" Column="1" />
+      <File FileName="glow-scraper/Program.cs" Line="21" Column="35" />
+      <File FileName="glow-scraper/Services/ArtistService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="glow-scraper" expanded="True">
             <Node name="glow-scraper" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Services" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
